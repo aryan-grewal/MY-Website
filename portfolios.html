@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Portfolio</title>
+        <link rel="icon" type="image/x-icon" href="pictures/favicon-A.png" />
+        <link rel = "stylesheet" type="text/css"  href="css/style.css" />
+        <script defer src="js/main.js" ></script>
+
+    </head>
+    <body>
+        <header id="main-header"> 
+
+            <h1>PORTFOLIO</h1> 
+            <nav id="navbar">
+              <div class= "navmenu" >
+                <a href="home.html" class="navBarItems">Home</a> |
+                <a href="portfolios.html" class="navBarItems">Portfolio</a> |
+                <a href="contact.html" class="navBarItems">Contact Me</a>
+              </div>  
+            </nav>  
+            <div id="socials">
+              <a href="https://www.linkedin.com/in/aryanjot-grewal-177bb6294/" target="_blank">
+                <img src="pictures/linkedin-logo.svg" alt="LinkedIn" style=" width: 40px; height:40px"/>
+              </a>
+              <a href="https://github.com/" target="_blank">
+                 <img src="pictures/github-logo.svg" alt="GitHub" style=" width: 40px; height:40px"/>
+              </a>     
+            </div>
+          </header> 
+          <main id="projects">
+            <section class="project">
+              <h2>Project 1: Christmas Colouring Book</h2>
+              <img src="pictures/project1.png" alt="Project 1 Screenshot" class="project-screenshot">
+              <p>
+                 This project implements a colouring book application using processing.
+                 The application will load black and white Christmas line drawings onto the Processing canvas, allowing users to interactively color the images. 
+                 The functionality includes clicking on a white pixel to initiate a gradual coloring process for the adjacent white pixels within that area.
+                 Buttons are provided to allow the users to select desired colours.
+                 Moreover, the application incorporates features for resetting the artwork, providing users with the flexibility to start anew whenever they wish. 
+                 Additionally, the option to save colored pictures adds a practical element, allowing users to preserve their artistic creations and share them with others.
+              </p>
+            </section>
+  
+            <section class="project">
+              <h2>Project 2: Foxes and Rabbits Simulation</h2>
+              <img src="pictures/project2.png" alt="Project 2 Screenshot" class="project-screenshot">
+              <p>
+                The project involves creating a grid-based natural environment simulator where Rabbits and Foxes interact over a set number of simulation steps. 
+                Each grid cell in the field can house these animals, with Rabbits moving randomly and Foxes attempting to hunt adjacent Rabbits or moving randomly. 
+                Animals age, breed with a given probability, and eventually die. 
+                The initial state populates the field with Rabbits and Foxes based on specified probabilities. 
+                After each simulation step, the program visualizes the evolving ecosystem, displaying the count of each animal type. 
+                The goal is to model a dynamic natural environment, capturing the interplay between the two animal species and their behaviors.              
+              </p>
+            </section>
+  
+            <section class="project">
+              <h2>Project 3: Cars and Track Mini-Game</h2>
+              <img src="pictures/project3.png" alt="Project 3 Screenshot" class="project-screenshot">
+              <p>
+                The project is centered around the development of an engaging animated racing game, featuring a group of cars navigating a racetrack and coming to a halt upon reaching the finish line. 
+                Users have the interactive capability to press the 's' key, triggering the reset of the cars to the starting point and initiating the animation once again. 
+                A sophisticated scoring system has been implemented to keep track of the cumulative number of victories achieved by the cars throughout the gameplay. 
+                The score is dynamically updated and prominently displayed in the center of the car's chassis upon securing a win.
+              </p>
+            </section>
+          </main>
+          
+          <footer id="quote">
+            <blockquote>
+              <p>
+                "You never change things by fighting the existing reality. To change something, build a new model that makes the existing model obsolete."
+              </p>
+              <footer>~ Buckminster Fuller</footer>
+            </blockquote> 
+          </footer>
+       
+    </body>
+</html>
