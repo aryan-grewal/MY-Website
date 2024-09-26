@@ -325,6 +325,7 @@ body {background-color:rgb(220, 221, 223);
     border: 4px double black;
     margin-bottom: 10%;
     text-align: center;
+    background-color: rgba(192, 189, 189, 0.589);
   }
   
 .language {
