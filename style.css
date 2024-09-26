@@ -325,7 +325,6 @@ body {background-color:rgb(220, 221, 223);
     border: 4px double black;
     margin-bottom: 10%;
     text-align: center;
-    background-color: rgba(192, 189, 189, 0.589);
   }
   
 .language {
@@ -341,7 +340,7 @@ body {background-color:rgb(220, 221, 223);
   
 .experience-rating {
     font-size: 18px;
-    color: #FFD700; 
+    color: #2b2b2a;
     margin-top: 5px;
   }
 
