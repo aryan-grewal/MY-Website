@@ -25,7 +25,9 @@ body {background-color:rgb(220, 221, 223);
 
 .navBarItems{
     font-size: 20px;
-    transition: font-size .2s ease;    
+    transition: font-size .2s ease;
+    color: #282828;
+    text-decoration: none;
 }
 
 .navBarItems:hover{
@@ -71,6 +73,7 @@ body {background-color:rgb(220, 221, 223);
     padding-bottom: 30px;
     font-family:Arial, Helvetica, sans-serif;
     font-size: large;
+    backdrop-filter: blur(3px);
 }
 
 @media only screen and (max-width:600px) {
@@ -111,6 +114,7 @@ body {background-color:rgb(220, 221, 223);
     padding-bottom: 30px;
     font-family:Arial, Helvetica, sans-serif;
     font-size: large;
+    backdrop-filter: blur(3px);
 }
 
 @media only screen and (max-width:600px) {
@@ -151,6 +155,7 @@ body {background-color:rgb(220, 221, 223);
     padding-bottom: 30px;
     font-family:Arial, Helvetica, sans-serif;
     font-size: large;
+    backdrop-filter: blur(3px);
 }
 
 @media only screen and (max-width:600px) {
@@ -191,6 +196,7 @@ body {background-color:rgb(220, 221, 223);
     padding-bottom: 30px;
     font-family:Arial, Helvetica, sans-serif;
     font-size: large;
+    backdrop-filter: blur(3px);
 }
 
 @media only screen and (max-width:600px) {
@@ -231,6 +237,7 @@ body {background-color:rgb(220, 221, 223);
     padding-bottom: 30px;
     font-family:Arial, Helvetica, sans-serif;
     font-size: large;
+    backdrop-filter: blur(3px);
 }
 
 @media only screen and (max-width:600px) {
@@ -271,6 +278,7 @@ body {background-color:rgb(220, 221, 223);
     padding-bottom: 30px;
     font-family:Arial, Helvetica, sans-serif;
     font-size: large;
+    backdrop-filter: blur(3px);
 }
 
 @media only screen and (max-width:600px) {
@@ -310,8 +318,7 @@ body {background-color:rgb(220, 221, 223);
     font-size: larger ;
     font-style: italic;
     font-family:Georgia, 'Times New Roman', Times, serif;
-    background-color: rgba(192, 189, 189, 0.589);
-    
+    backdrop-filter: blur(5px);
 }
 
 @media only screen and (max-width:600px) {
@@ -325,6 +332,7 @@ body {background-color:rgb(220, 221, 223);
     border: 4px double black;
     margin-bottom: 10%;
     text-align: center;
+    backdrop-filter: blur(3px);
   }
   
 .language {
@@ -428,6 +436,7 @@ body {background-color:rgb(220, 221, 223);
     border: 2px solid rgb(77, 69, 69);
     padding: 25px ;
     margin: 10px 30%; 
+    backdrop-filter: blur(3px);
 }
 
 @media only screen and (max-width:600px) {
