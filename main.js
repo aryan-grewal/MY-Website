@@ -32,6 +32,7 @@ function checkEmails() {           // checks if email and confirm email are equa
 function checkDate() {        // checks if project date is at least 1 day in the future.
   let projectDate = new Date(document.getElementById('projectDate').value);
   let currentDate = new Date();
+  currentDate.setHours(0, 0, 0, 0);  // Set time to midnight
   currentDate.setDate(currentDate.getDate() + 1); // Adding 1 day
 
   return projectDate >= currentDate;
@@ -64,5 +65,6 @@ function showConfirmationPopup() {              // produces the confirmation pop
   if (window.confirm(confirmationMessage)) {
       alert("Thank you for your submission.");
       document.getElementById('contactForm').reset();
+      window.scrollTo(0, 0);  // Scroll to the top after form reset
   }
 }
