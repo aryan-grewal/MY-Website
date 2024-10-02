@@ -21,6 +21,7 @@ body {background-color:rgb(220, 221, 223);
     border: 2px solid black;
     padding:10px 40px;
     margin-top:20px;
+    backdrop-filter: blur(3px);
 }
 
 .navBarItems{
@@ -28,6 +29,7 @@ body {background-color:rgb(220, 221, 223);
     transition: font-size .2s ease;
     color: #282828;
     text-decoration: none;
+    font-weight: bold;
 }
 
 .navBarItems:hover{
