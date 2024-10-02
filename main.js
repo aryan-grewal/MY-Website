@@ -59,7 +59,7 @@ function showConfirmationPopup() {              // produces the confirmation pop
   confirmationMessage += `Project Date: ${projectDate}\n`;
   confirmationMessage += `Project Duration (in days): ${projectDuration}\n`;
   confirmationMessage += `Project Description:\n${description}\n\n`;
-  confirmationMessage += `To: 230151655@aston.ac.uk\n`;
+  confirmationMessage += `To: aryanzgrewal@gmail.com\n`;
 
   if (window.confirm(confirmationMessage)) {
       alert("Thank you for your submission.");
