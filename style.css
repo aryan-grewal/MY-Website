@@ -107,7 +107,7 @@ body {background-color:rgb(220, 221, 223);
 }
 
 
-#contact-details {
+#contact-details, #education, #work-experience, #skills, #certifications, #achievements, #interests {
     border: 4px double rgb(0, 0, 0);
     border-radius:0%;
     margin: 10% 28%;
@@ -120,48 +120,7 @@ body {background-color:rgb(220, 221, 223);
 }
 
 @media only screen and (max-width:600px) {
-    #contact-details {
-        margin: 5%;
-        padding-left: 10px;
-        padding-right: 10px;
-        padding-bottom: 10px;
-        font-size: medium;
-   };
-}
-
-@media only screen and (min-width:600px) {
-    #contact-details {
-        margin: 10% 20% ;
-        padding-left: 25px;
-        padding-right: 25px;
-        padding-bottom: 25px;
-   };
-}
-
-@media only screen and (min-width:850px) {
-    #contact-details {
-        margin: 10% 28%;
-        padding-left: 30px;
-        padding-right: 30px;
-        padding-bottom: 30px;
-   };
-}
-
-
-#education {
-    border: 4px double rgb(0, 0, 0);
-    border-radius:0%;
-    margin: 10% 28%;
-    padding-left: 30px;
-    padding-right: 30px;
-    padding-bottom: 30px;
-    font-family:Arial, Helvetica, sans-serif;
-    font-size: large;
-    backdrop-filter: blur(3px);
-}
-
-@media only screen and (max-width:600px) {
-    #education {
+    #contact-details, #education, #work-experience, #skills, #certifications, #achievements, #interests{
         margin: 5%;
         padding-left: 0px;
         padding-right: 10px;
@@ -171,7 +130,7 @@ body {background-color:rgb(220, 221, 223);
 }
 
 @media only screen and (min-width:600px) {
-    #education {
+    #contact-details, #education, #work-experience, #skills, #certifications, #achievements, #interests {
         margin: 10% 20% ;
         padding-left: 25px;
         padding-right: 25px;
@@ -180,130 +139,7 @@ body {background-color:rgb(220, 221, 223);
 }
 
 @media only screen and (min-width:850px) {
-    #education {
-        margin: 10% 28%;
-        padding-left: 30px;
-        padding-right: 30px;
-        padding-bottom: 30px;
-   };
-}
-
-
-#work-experience {
-    border: 4px double rgb(0, 0, 0);
-    border-radius:0%;
-    margin: 10% 28%;
-    padding-left: 30px;
-    padding-right: 30px;
-    padding-bottom: 30px;
-    font-family:Arial, Helvetica, sans-serif;
-    font-size: large;
-    backdrop-filter: blur(3px);
-}
-
-@media only screen and (max-width:600px) {
-    #work-experience {
-        margin: 5%;
-        padding-left: 0px;
-        padding-right: 10px;
-        padding-bottom: 10px;
-        font-size: medium;
-   };
-}
-
-@media only screen and (min-width:600px) {
-    #work-experience {
-        margin: 10% 20% ;
-        padding-left: 25px;
-        padding-right: 25px;
-        padding-bottom: 25px; 
-   };
-}
-
-@media only screen and (min-width:850px) {
-    #work-experience {
-        margin: 10% 28%;
-        padding-left: 30px;
-        padding-right: 30px;
-        padding-bottom: 30px;
-   };
-}
-
-
-#skills {
-    border: 4px double rgb(0, 0, 0);
-    border-radius:0%;
-    margin: 10% 28%;
-    padding-left: 30px;
-    padding-right: 30px;
-    padding-bottom: 30px;
-    font-family:Arial, Helvetica, sans-serif;
-    font-size: large;
-    backdrop-filter: blur(3px);
-}
-
-@media only screen and (max-width:600px) {
-    #skills {
-        margin: 5%;
-        padding-left: 0px;
-        padding-right: 10px;
-        padding-bottom: 10px;
-        font-size: medium;
-   };
-}
-
-@media only screen and (min-width:600px) {
-    #skills {
-        margin: 10% 20% ;
-        padding-left: 25px;
-        padding-right: 25px;
-        padding-bottom: 25px;
-   };
-}
-
-@media only screen and (min-width:850px) {
-    #skills {
-        margin: 10% 28%;
-        padding-left: 30px;
-        padding-right: 30px;
-        padding-bottom: 30px;
-   };
-}
-
-
-#interests {
-    border: 4px double rgb(0, 0, 0);
-    border-radius:0%;
-    margin: 10% 28%;
-    padding-left: 30px;
-    padding-right: 30px;
-    padding-bottom: 30px;
-    font-family:Arial, Helvetica, sans-serif;
-    font-size: large;
-    backdrop-filter: blur(3px);
-}
-
-@media only screen and (max-width:600px) {
-    #interests {
-        margin: 5%;
-        padding-left: 0px;
-        padding-right: 10px;
-        padding-bottom: 10px;
-        font-size: medium;
-   };
-}
-
-@media only screen and (min-width:600px) {
-    #interests {
-        margin: 10% 20% ;
-        padding-left: 25px;
-        padding-right: 25px;
-        padding-bottom: 25px;
-   };
-}
-
-@media only screen and (min-width:850px) {
-    #interests {
+    #contact-details, #education, #work-experience, #skills, #certifications, #achievements, #interests {
         margin: 10% 28%;
         padding-left: 30px;
         padding-right: 30px;
@@ -406,7 +242,6 @@ body {background-color:rgb(220, 221, 223);
 }
 
 
-
 .project:hover {
     transform: translateY(-5px);
     transition: transform 0.4s ease-in-out;
@@ -486,4 +321,92 @@ input, textarea, select{
 
 #submit:hover {
     background-color: #45a049;
+}
+
+/* Sidebar styling */
+#section-menu {
+    position: absolute;
+    top: 150px;
+    left: 30px; 
+    width: 15%; 
+    padding: 15px;
+    background: rgba(255, 255, 255, 0.2); 
+    border: 2px solid rgba(0, 0, 0, 0.05);
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); 
+    backdrop-filter: blur(5px); 
+    font-family: "Poppins", sans-serif;
+    z-index: 1000; 
+}
+
+#section-menu ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+#section-menu ul li {
+    margin-bottom: 15px;
+}
+
+#section-menu ul li a {
+    text-decoration: none;
+    color: #282828; 
+    font-size: 18px;
+    font-weight: 500;
+    transition: color 0.3s ease, transform 0.3s ease;
+}
+
+#section-menu ul li a:hover {
+    color: indigo; 
+    transform: translateX(5px); 
+}
+
+@media only screen and (max-width: 900px) {
+    #section-menu {
+        position: static;
+        margin-top: 50px;
+        width: 100%;
+        margin-bottom: 20px;
+        box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+        backdrop-filter: blur(5px); 
+        box-shadow: none;
+        border: none;
+        padding: 0;
+    }
+
+    #section-menu ul li {
+        text-align: center;
+    }
+
+    main {
+        margin-left: 0;
+    }
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+#about, #contact-details, #education, #work-experience, #skills, #certifications, #achievements, #interests {
+    scroll-margin-top: 40px; 
+}
+
+.back-to-top {
+    position: fixed;
+    bottom: 20px; 
+    right: 20px; 
+    background-color: rgba(152, 61, 217, 0.591); 
+    color: white; 
+    padding: 10px 15px; 
+    text-decoration: none; 
+    border-radius: 5px; 
+    transition: background-color 0.3s; 
+    z-index: 1000; 
+    display: block; 
+    opacity: 1; 
+}
+
+.back-to-top:hover {
+    background-color: indigo; 
 }
